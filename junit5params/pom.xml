@@ -1,19 +1,24 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  
+
   <parent>
     <groupId>com.selesy.testing.junit5params</groupId>
     <artifactId>junit5params-parent</artifactId>
     <version>0.1-SNAPSHOT</version>
   </parent>
-  
+
   <artifactId>junit5params</artifactId>
   <name>JUnit 5 Params</name>
-  
+
   <dependencies>
 
     <!-- Library dependencies -->
 
+    <dependency>
+      <groupId>pl.pragmatists</groupId>
+      <artifactId>JUnitParams</artifactId>
+    </dependency>
     <dependency>
       <groupId>org.junit</groupId>
       <artifactId>junit5-api</artifactId>

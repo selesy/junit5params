@@ -61,7 +61,7 @@
       <dependency>
         <groupId>pl.pragmatists</groupId>
         <artifactId>JUnitParams</artifactId>
-        <version>${version.junitparams</version>
+        <version>${version.junitparams}</version>
       </dependency>
       <dependency>
         <groupId>org.junit</groupId>
